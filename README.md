@@ -53,3 +53,10 @@ com.example.message file:///C:/out/
 requires java.base mandated
 contains com.example.message
 ```
+
+Executing main class
+```bash
+# java --module-path [path of module] -m <module>/<mainclass>
+> java --module-path out -m com.example.message/com.example.message.Message
+Hello World
+```
