@@ -16,4 +16,10 @@ Current directory
                     Message.java
 ```
 
+Compiling module
 
+```bash
+# javac
+javac -d out --module-path src src\module-info.java src\com\example\message\Message.java
+
+```
