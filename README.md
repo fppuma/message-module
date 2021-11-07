@@ -1,7 +1,7 @@
 # message-module
 
 ## Java Modularity
-### Window Commands
+### Windows Commands
 
 Current directory
 
